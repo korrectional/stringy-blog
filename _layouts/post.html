@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<article class="post">
+
+  <h1>{{ page.title }}</h1>
+
+  <div class="entry">
+    {{ content }}
+  </div>
+
+  <div class="date">
+    Written on {{ page.date | date: "%B %d, %Y" }}
+  </div>
+
+
+  <div id="utterances-comments">
+    <script src="https://utteranc.es/client.js"
+            repo="korrectional/stringy-blog"
+            issue-term="pathname"
+            label="comment"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+    </script>
+  </div>
+</article>
