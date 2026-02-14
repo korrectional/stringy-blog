@@ -22,8 +22,8 @@ title: Stringy Blog
 email: info@stringy.ai
 description: >- # this means to ignore newlines until "baseurl:"
   The official blog for Stringy, a personal AI memory assistant for your conversations. Elevate your focus and recall everything, privately.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/stringy-blog" # the subpath of your site, e.g. /blog
+url: "https://korrectional.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 theme: minima
